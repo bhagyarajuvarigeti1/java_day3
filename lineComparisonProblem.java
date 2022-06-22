@@ -13,6 +13,12 @@ public class lineComparisonProblem{
 		if(Line1==Line2){
 			System.out.println("Both lines are equal");
 		}
+		else if(Line1<Line2){
+			System.out.println("Line 1 is less than Line 2");
+		}
+		else{
+			System.out.println("Line 1 is greater than Line 2");
+		}
 	}
 	public static  double LengthOfTheLine(int x1,int x2,int y1,int y2){
 		int x = x2-x1;
